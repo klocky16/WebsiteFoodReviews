@@ -1,0 +1,124 @@
+header {
+  display: flex;
+  align-items: center;
+  height: 20vw;
+  padding: 0 5vw;
+  background-color: #ec9706;
+  box-shadow: 0 0.25vw 0.49vw rgba(0, 0, 0, 0.1);
+  z-index: 3;
+}
+
+.header-text h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 5vw;
+  font-weight: 700;
+  margin: 0;
+  z-index: 1;
+  display: inline;
+  white-space: nowrap;
+}
+
+footer {
+  position: absolute;
+  bottom: 0%;
+  z-index: 1;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  z-index: 1;
+}
+
+p {
+  font-size: 1.47vw;
+  z-index: 1;
+}
+
+.restshape {
+  position: absolute;
+  height: 61.5vw;
+  width: 61.5vw;
+  margin-left: 19.25vw;
+  top: 30.7vw;
+  background-color: #ec9706;
+  box-shadow: 0 0.25vw 0.49vw rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.restshape h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.69vw;
+  margin-top: 24.6vw;
+  z-index: 1;
+}
+
+.logo img {
+  height: 9.84vw;
+  z-index: 1;
+  float: right;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 19.7vw;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 1.48vw 1.97vw;
+  text-decoration: none;
+  display: block;
+  z-index: 1;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  padding: 1.48vw 1.97vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.97vw;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  z-index: 1;
+}
+
+.dropbtn {
+  background-color: #FBC05A;
+  color: black;
+  padding: 1.97vw;
+  font-size: 1.97vw;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #FCD289;
+  z-index: 1;
+}
+
+ul {
+  list-style-type: none;
+  z-index: 1;
+}
+
+li {
+  float: left;
+}
+
+#test {
+  display: none;
+}

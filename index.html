@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Maxim Ivanov">
+  <meta name="author" content="Kristian Bek">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Food Reviews of international restaurants and fast food places in Ljubljana">
+  <meta name="keywords" content="Food, Reviews, Ljubljana, International">
+
+  <title>Ljubljana Reviews</title>
+  <link rel="icon" type="image/x-icon" href="src/site.ico">
+  <link rel="stylesheet" href="Food_Reviews.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-text">
+      <h1>Food Reviews</h1>
+    </div>
+    <div class="logo">
+      <img src="src/site.ico" alt="Food Reviews Logo">
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">Pekarnas</button>
+            <div class="dropdown-content">
+              <a href="#">Pekarna XYZ</a>
+              <a href="#">Pekarna ABC</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">Restaurants</button>
+            <div class="dropdown-content">
+              <a href="#">Restaurant XYZ</a>
+              <a href="#">Restaurant ABC</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">Fast Food</button>
+            <div class="dropdown-content">
+              <a href="#" onclick="show('test')">Fast Food XYZ</a>
+              <a href="#">Fast Food ABC</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div id="prev" class="restshape" align="center">
+    <h1>TO VIEW THE REVIEWS USE LINKS ABOVE</h1>
+  </div>
+
+  <div id="test">
+    <h1>TEST</h1>
+  </div>
+
+  <footer>
+    <p>Review Authors: Maxim Ivanov, Zal Pintar, Kristian Bek, Levente Partos</p>
+    <p>Website Authors: Maxim Ivanov, Kristian Bek</p>
+  </footer>
+
+  <script src="Food_Reviews.js"></script>
+</body>
+
+</html>
